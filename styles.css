@@ -1,0 +1,237 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   background-color: black;
+   color: white;
+   overflow-x: hidden;
+}
+
+/* Header */
+.left-container {
+    position: absolute;
+    left: 3vw;
+    top: 4vh;
+}
+
+.right-container {
+    position: absolute;
+    right: 3vw;
+    top: 4vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    display: inline;
+    margin: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Hero Text */
+.info-container {
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-head {
+    font-size: 4rem;
+}
+
+.text-container {
+    display: inline;
+    width: 100%;
+}
+
+.info-text {
+    display: inline;
+    margin: 5rem;
+    font-weight: 600;
+}
+
+/* Process */
+.process-container {
+    position: absolute;
+    top: 36vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 4rem;
+}
+
+.texture {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 4rem;
+}
+
+.render {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 4rem;
+}
+
+/* Mouse Animation */
+.mouse-scroll {
+    position: absolute;
+    top: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Project */
+.project-container {
+    position: absolute;
+    width: 100%;
+    top: 105vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-head {
+    font-size: 2rem;
+}
+
+.project-view1 {
+    position: absolute;
+    top: 15vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj1 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.proj2 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.project-view2 {
+    position: absolute;
+    top: 70vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj3 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.proj4 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.project-view3 {
+    position: absolute;
+    top: 125vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj5 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.proj6 {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 1rem;
+}
+
+.proj-view-text1 {
+    position: absolute;
+    top: 63vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-view-text2 {
+    position: absolute;
+    top: 118vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-view-text3 {
+    position: absolute;
+    top: 173vh;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj1-text, .proj2-text, .proj3-text, .proj4-text, .proj5-text, .proj6-text {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 17rem;
+    margin-right: 17rem;
+}
