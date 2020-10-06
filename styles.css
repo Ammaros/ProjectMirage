@@ -22,14 +22,29 @@ ul {
     list-style-type: none;
 }
 
-.nav-link {
+.contact-btn {
+    /* Position */
     display: inline;
     margin: 1rem;
+
+    /* Style */
+    display:inline-block;
+    padding:0.45em 1.2em;
+    border:0.15em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.32em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:600;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+.contact-btn:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    cursor: pointer;
 }
 
 /* Hero Text */
@@ -125,6 +140,7 @@ a {
 
 .project-head {
     font-size: 2rem;
+    font-weight: 600;
 }
 
 .project-view1 {
@@ -234,4 +250,191 @@ a {
     font-weight: 600;
     margin-left: 17rem;
     margin-right: 17rem;
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+.proj1-text:hover, .proj2-text:hover, .proj3-text:hover, .proj4-text:hover, .proj5-text:hover, .proj6-text:hover {
+    color: #FFD858;
+    border-bottom: solid 0.12em #FFD858;
+}
+
+/* Learn 3D Design */
+.learn-design-container {
+    position: absolute;
+    width: 100%;
+    top: 185vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learn-design-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-design-head {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.learn-design-text-container {
+    position: absolute;
+    width: 100%;
+    top: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-design-text {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.enroll-btn-container {
+    position: absolute;
+    width: 100%;
+    top: 12rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enroll-btn {
+    display:inline-block;
+    padding:0.45em 1.2em;
+    border:0.15em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.32em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:600;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.enroll-btn:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+.hire-us-container {
+    position: absolute;
+    width: 100%;
+    top: 220vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hire-us-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-us-head {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hire-us-text-container {
+    position: absolute;
+    width: 100%;
+    top: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-us-text {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.email-btn-container {
+    position: absolute;
+    width: 100%;
+    top: 12rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-btn {
+    display:inline-block;
+    padding:0.45em 1.2em;
+    border:0.15em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.32em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:600;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.email-btn:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+/* Footer */
+/* .footer-container {
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.footer {
+    position: absolute;
+    top: 255vh;
+    width: 100%;
+    height: 11vh;
+    background-color: #FFFFFF;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 3vw;
+    top: 3vh;
+}
+
+.footer-instagram {
+    position: absolute;
+    right: 11vw;
+    top: 4vh;
+}
+
+.footer-facebook {
+    position: absolute;
+    right: 7vw;
+    top: 4vh;
+}
+
+.footer-in {
+    position: absolute;
+    right: 3vw;
+    top: 4vh;
 }
